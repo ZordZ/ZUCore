@@ -141,9 +141,7 @@
 		4AF5742525DFFE6218BA8907FCD6B118 /* ZUCore */ = {
 			isa = PBXGroup;
 			children = (
-				74E9B3D928B1F297007BB54A /* AppUtils.swift */,
-				74582AF828B201D4008CC992 /* Bundle_Ext.swift */,
-				74582AFA28B2026E008CC992 /* Application_Ext.swift */,
+				743ABA9A28B228D500DCD074 /* Classes */,
 				C58BCD8CE4BD0B7B96C056F8D966349E /* Pod */,
 				10E88AC8607C603585B18636D14DC0BF /* Support Files */,
 			);
@@ -182,6 +180,16 @@
 				4AF5742525DFFE6218BA8907FCD6B118 /* ZUCore */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		743ABA9A28B228D500DCD074 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				74E9B3D928B1F297007BB54A /* AppUtils.swift */,
+				74582AF828B201D4008CC992 /* Bundle_Ext.swift */,
+				74582AFA28B2026E008CC992 /* Application_Ext.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		B9DD3CAFB070B190B9C88D2B0DECA085 /* Pods-ZUCore_Tests */ = {
@@ -466,6 +474,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.0.1;
 				MODULEMAP_FILE = "Target Support Files/ZUCore/ZUCore.modulemap";
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D IS_DEBUG_MODE";
 				PRODUCT_MODULE_NAME = ZUCore;
@@ -725,6 +734,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.0.1;
 				MODULEMAP_FILE = "Target Support Files/ZUCore/ZUCore.modulemap";
 				PRODUCT_MODULE_NAME = ZUCore;
 				PRODUCT_NAME = ZUCore;
