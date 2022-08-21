@@ -10,7 +10,9 @@
 		36A5FB07A4643BD8CE45A34BE9134BB2 /* ZUCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1683F406D946E235602638BE979DD9E8 /* ZUCore-dummy.m */; };
 		40B464DCC66BAD0A50ED808EE6104669 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4DCE7D98D77C023BF4D2DCEB0ECD4E62 /* Pods-ZUCore_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 995BAA316C8987DA15165E4BE8B394A0 /* Pods-ZUCore_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		743ABA9C28B2345900DCD074 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 743ABA9B28B2345900DCD074 /* Classes */; };
+		743ABAA028B237A300DCD074 /* Application_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743ABA9E28B237A300DCD074 /* Application_Ext.swift */; };
+		743ABAA128B237A300DCD074 /* Bundle_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743ABA9F28B237A300DCD074 /* Bundle_Ext.swift */; };
+		743ABAA228B237A300DCD074 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743ABA9D28B237A300DCD074 /* AppUtils.swift */; };
 		7B290CEE56DB5E1E3AD9BCB92CA18C46 /* Pods-ZUCore_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D5845CFA0A3A3A7500DC10EBBEC30 /* Pods-ZUCore_Tests-dummy.m */; };
 		7C22F861A2ED218D8C6BACB40B3B4F62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		CB3E0B38501366CD638BE1C3F912BA7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -50,7 +52,9 @@
 		5927FFB34573A05B448BE4237EA9025A /* Pods_ZUCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZUCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		674C066E3EC1CAE81427F69EDF5A37E7 /* Pods-ZUCore_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZUCore_Example.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		743ABA9B28B2345900DCD074 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Classes; path = ZUCore/Classes; sourceTree = "<group>"; };
+		743ABA9D28B237A300DCD074 /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
+		743ABA9E28B237A300DCD074 /* Application_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application_Ext.swift; sourceTree = "<group>"; };
+		743ABA9F28B237A300DCD074 /* Bundle_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle_Ext.swift; sourceTree = "<group>"; };
 		8044FE299E00A210A93F379786EAE134 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		875FE00EBDC600E4AB19A72B40CF6FF6 /* ZUCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZUCore.release.xcconfig; sourceTree = "<group>"; };
 		8D29988BD88358AC93B0040D23D394AC /* Pods-ZUCore_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZUCore_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -137,7 +141,9 @@
 		4AF5742525DFFE6218BA8907FCD6B118 /* ZUCore */ = {
 			isa = PBXGroup;
 			children = (
-				743ABA9B28B2345900DCD074 /* Classes */,
+				743ABA9E28B237A300DCD074 /* Application_Ext.swift */,
+				743ABA9D28B237A300DCD074 /* AppUtils.swift */,
+				743ABA9F28B237A300DCD074 /* Bundle_Ext.swift */,
 				C58BCD8CE4BD0B7B96C056F8D966349E /* Pod */,
 				10E88AC8607C603585B18636D14DC0BF /* Support Files */,
 			);
@@ -350,7 +356,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				743ABA9C28B2345900DCD074 /* Classes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +389,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743ABAA028B237A300DCD074 /* Application_Ext.swift in Sources */,
+				743ABAA128B237A300DCD074 /* Bundle_Ext.swift in Sources */,
 				36A5FB07A4643BD8CE45A34BE9134BB2 /* ZUCore-dummy.m in Sources */,
+				743ABAA228B237A300DCD074 /* AppUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

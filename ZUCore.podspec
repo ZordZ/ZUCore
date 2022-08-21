@@ -33,7 +33,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'ZUCore/Classes/**/*'
+  #s.source_files = 'ZUCore/Classes/**/*'
+  s.source_files = 'ZUCore/**/*'
   
   # s.resource_bundles = {
   #   'ZUCore' => ['ZUCore/Assets/*.png']
