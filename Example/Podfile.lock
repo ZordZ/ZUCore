@@ -1,0 +1,16 @@
+PODS:
+  - ZUCore (0.1.0)
+
+DEPENDENCIES:
+  - ZUCore (from `../`)
+
+EXTERNAL SOURCES:
+  ZUCore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZUCore: 84f4a173e40e017846e3510ed0e3bc746b438edb
+
+PODFILE CHECKSUM: 41eca08b6db824678baecc118fa7b996346c6fc8
+
+COCOAPODS: 1.11.3
