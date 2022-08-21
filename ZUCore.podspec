@@ -27,6 +27,9 @@ TODO: Add long description of the pod here.
   s.author           = { 'MrTrent' => 'show6time@gmail.com' }
   s.source           = { :git => 'https://github.com/ZordZ/ZUCore.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.platform = :ios
+  s.module_name = "ZUCore"
+  s.swift_version = '5.0'
 
   s.ios.deployment_target = '13.0'
 
