@@ -9,7 +9,7 @@ import Foundation
 
 public struct AppUtils {
     public static var isDebug: Bool {
-        #if IS_DEBUG_MODE
+        #if DEBUG
             return true
         #else
             return false

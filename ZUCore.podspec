@@ -35,7 +35,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'ZUCore/Classes/**/*.swift'
   
-  s.pod_target_xcconfig = {'OTHER_SWIFT_FLAGS[config=Debug]' => '-D IS_DEBUG_MODE'}
+  s.pod_target_xcconfig = {
+      'OTHER_SWIFT_FLAGS[config=Debug]' => '-DDEBUG',
+  }
   
   # s.resource_bundles = {
   #   'ZUCore' => ['ZUCore/Assets/*.png']
