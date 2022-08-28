@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZUCore'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'Core for other ZU libs and frameworks.'
 
 # This description is used to generate tags and improve search results.
@@ -34,6 +34,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '13.0'
 
   s.source_files = 'ZUCore/Classes/**/*.swift'
+  
+  s.pod_target_xcconfig = {'OTHER_SWIFT_FLAGS[config=Debug]' => '-D IS_DEBUG_MODE'}
   
   # s.resource_bundles = {
   #   'ZUCore' => ['ZUCore/Assets/*.png']
