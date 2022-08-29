@@ -12,24 +12,50 @@ ZUCore - is the base layer for other libs. It's just bunch of extension and some
 
 ## Full features list:
 
-:small_orange_diamond: AppUtils    
-isDebug: Bool - shows if app run in debug scheme    
+:small_orange_diamond: AppUtils.    
+(as Class)    
+```swift
+import ZUCore
 
-:small_orange_diamond: UIApplication(ext)    
-selectedWindow: UIWindow? - selected window    
-rootVC: UIViewController? - root view controller of selected window    
-topNavigationController: UINavigationController? - top UINavigationController(doesn't include presented)    
-topViewController: UIViewController? - top UIViewController(doesn't include presented)    
+// use to detect thay app is runs with debug scheme
+isDebug: Bool
+```
 
-:small_orange_diamond: Bundle(ext)    
-displayName: String - app name    
-appVersion: String - app version    
-buildVersion: String - build version    
-targetName: String? - target name    
+:small_orange_diamond: UIApplication.shared.    
+(as extension of UIApplication)
+```swift
+// use to get selected window
+selectedWindow: UIWindow?
+
+// use to get root view controller of selected window
+rootVC: UIViewController?
+
+// use to get top UINavigationController(doesn't include presented)
+topNavigationController: UINavigationController?
+
+// use to get top UIViewController(doesn't include presented)
+topViewController: UIViewController?
+```
+
+:small_orange_diamond: Bundle.main.    
+(as extension of Bundle)
+```swift
+// use to get app name
+displayName: String 
+
+// use to get app version
+appVersion: String
+
+// use to get build version
+buildVersion: String
+
+// use to get target name
+targetName: String?
+```
 
 ----
 
-Later may be will be example. 
+Later example will be added. 
 So. To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
