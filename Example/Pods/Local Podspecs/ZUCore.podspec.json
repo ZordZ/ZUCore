@@ -1,9 +1,9 @@
 {
   "name": "ZUCore",
-  "version": "0.1.0",
-  "summary": "A short description of ZUCore.",
+  "version": "0.0.5",
+  "summary": "Core for other ZU libs and frameworks.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/MrTrent/ZUCore",
+  "homepage": "https://github.com/ZordZ/ZUCore",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,17 @@
     "MrTrent": "show6time@gmail.com"
   },
   "source": {
-    "git": "https://github.com/MrTrent/ZUCore.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/ZordZ/ZUCore.git",
+    "tag": "0.0.5"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
-  "source_files": "ZUCore/Classes/**/*"
+  "module_name": "ZUCore",
+  "swift_versions": "5.0",
+  "source_files": "ZUCore/Classes/**/*.swift",
+  "pod_target_xcconfig": {
+    "OTHER_SWIFT_FLAGS[config=Debug]": "-DDEBUG"
+  },
+  "swift_version": "5.0"
 }
