@@ -40,10 +40,10 @@
 
 /* Begin PBXFileReference section */
 		022783A10421CF36CE40DDADF99CF302 /* Application_Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Application_Ext.swift; path = ZUCore/Classes/Application_Ext.swift; sourceTree = "<group>"; };
-		0AB854B84F1649ADDC288C6F4F99119C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0AB854B84F1649ADDC288C6F4F99119C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0E0DD903144C7488B6A7606B0AE8DFE5 /* ZUCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZUCore-prefix.pch"; sourceTree = "<group>"; };
 		2351C73A86098E07E4C7D181EA636E4A /* Pods-ZUCore_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZUCore_Example-dummy.m"; sourceTree = "<group>"; };
-		2CA9BE7F4DA44F9C76A7ACF3BFA6BA6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2CA9BE7F4DA44F9C76A7ACF3BFA6BA6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		33137F45BC906E9442380D314B7EF9D7 /* Pods-ZUCore_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZUCore_Tests"; path = Pods_ZUCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AB1530D45AC119D714E7991BB7D4650 /* Pods-ZUCore_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZUCore_Example-frameworks.sh"; sourceTree = "<group>"; };
 		486D41E1A07A3CBFF308D49B9BDD25C9 /* ZUCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZUCore.debug.xcconfig; sourceTree = "<group>"; };
@@ -56,8 +56,8 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8D29988BD88358AC93B0040D23D394AC /* Pods-ZUCore_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZUCore_Tests-umbrella.h"; sourceTree = "<group>"; };
 		995BAA316C8987DA15165E4BE8B394A0 /* Pods-ZUCore_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZUCore_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F499B9C618FA5BA98D9DA6261864E49 /* ZUCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZUCore.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F499B9C618FA5BA98D9DA6261864E49 /* ZUCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZUCore.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AEB45092910EEBA27F03DC0F170E3924 /* Pods-ZUCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZUCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B36AA1F933A2FB363F6D0DD05A650AFD /* Pods-ZUCore_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZUCore_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B7838975C6A34EC58A08EB4972B41BD1 /* Pods-ZUCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZUCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		CEE69D8AD896492A78341BEF8A6D4439 /* ZUCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZUCore-umbrella.h"; sourceTree = "<group>"; };
 		DA3E60E918977153817B9D2C3F3CD258 /* Pods-ZUCore_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZUCore_Tests.modulemap"; sourceTree = "<group>"; };
 		E258D5F6B158E50F5AB16ED552352462 /* Pods-ZUCore_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZUCore_Tests-Info.plist"; sourceTree = "<group>"; };
-		F149650CF7662E30667221BBB92559F8 /* ZUCore */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZUCore; path = ZUCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F149650CF7662E30667221BBB92559F8 /* ZUCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZUCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C25EA998C83FBAAF3B6C828CD4B19E /* AppUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppUtils.swift; path = ZUCore/Classes/AppUtils.swift; sourceTree = "<group>"; };
 		F733FEEBF92F22097B9A852799061FA1 /* ZUCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZUCore.release.xcconfig; sourceTree = "<group>"; };
 		FC0D2E7A61B175F7F6E109FB251C453C /* ZUCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZUCore-dummy.m"; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 			children = (
 				5927FFB34573A05B448BE4237EA9025A /* Pods-ZUCore_Example */,
 				33137F45BC906E9442380D314B7EF9D7 /* Pods-ZUCore_Tests */,
-				F149650CF7662E30667221BBB92559F8 /* ZUCore */,
+				F149650CF7662E30667221BBB92559F8 /* ZUCore.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -293,7 +293,7 @@
 			);
 			name = ZUCore;
 			productName = ZUCore;
-			productReference = F149650CF7662E30667221BBB92559F8 /* ZUCore */;
+			productReference = F149650CF7662E30667221BBB92559F8 /* ZUCore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9C1AB028166577549D49AD08B7CC8934 /* Pods-ZUCore_Tests */ = {
@@ -433,6 +433,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.0.7;
 				MODULEMAP_FILE = "Target Support Files/ZUCore/ZUCore.modulemap";
 				PRODUCT_MODULE_NAME = ZUCore;
 				PRODUCT_NAME = ZUCore;
@@ -671,8 +672,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -731,6 +731,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.0.7;
 				MODULEMAP_FILE = "Target Support Files/ZUCore/ZUCore.modulemap";
 				PRODUCT_MODULE_NAME = ZUCore;
 				PRODUCT_NAME = ZUCore;
