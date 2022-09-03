@@ -11,6 +11,7 @@
 		40C8ADEE9E832A6965324C1E32F0C83A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4546D5FCEABA1FC65B725E792C0F621B /* ZUCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE69D8AD896492A78341BEF8A6D4439 /* ZUCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DCE7D98D77C023BF4D2DCEB0ECD4E62 /* Pods-ZUCore_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 995BAA316C8987DA15165E4BE8B394A0 /* Pods-ZUCore_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7478992628C38CEC00D4AB3D /* MemoryAddressUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478992528C38CEC00D4AB3D /* MemoryAddressUtils.swift */; };
 		7B290CEE56DB5E1E3AD9BCB92CA18C46 /* Pods-ZUCore_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D5845CFA0A3A3A7500DC10EBBEC30 /* Pods-ZUCore_Tests-dummy.m */; };
 		7C22F861A2ED218D8C6BACB40B3B4F62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		845E32413AD091BB1034ACD12938BAD4 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C25EA998C83FBAAF3B6C828CD4B19E /* AppUtils.swift */; };
@@ -54,6 +55,7 @@
 		5A82754E7B2BA36600826ED7210A68F4 /* Bundle_Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bundle_Ext.swift; path = ZUCore/Classes/Bundle_Ext.swift; sourceTree = "<group>"; };
 		674C066E3EC1CAE81427F69EDF5A37E7 /* Pods-ZUCore_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZUCore_Example.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7478992528C38CEC00D4AB3D /* MemoryAddressUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MemoryAddressUtils.swift; path = ZUCore/Classes/MemoryAddressUtils.swift; sourceTree = "<group>"; };
 		8D29988BD88358AC93B0040D23D394AC /* Pods-ZUCore_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZUCore_Tests-umbrella.h"; sourceTree = "<group>"; };
 		995BAA316C8987DA15165E4BE8B394A0 /* Pods-ZUCore_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZUCore_Example-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -118,6 +120,7 @@
 			children = (
 				022783A10421CF36CE40DDADF99CF302 /* Application_Ext.swift */,
 				F1C25EA998C83FBAAF3B6C828CD4B19E /* AppUtils.swift */,
+				7478992528C38CEC00D4AB3D /* MemoryAddressUtils.swift */,
 				5A82754E7B2BA36600826ED7210A68F4 /* Bundle_Ext.swift */,
 				9264DCB98AF2C39CBB7BA4E879C63E89 /* Pod */,
 				98F91D06AF6B0BCD3A2FA415E9396DEC /* Support Files */,
@@ -389,6 +392,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7478992628C38CEC00D4AB3D /* MemoryAddressUtils.swift in Sources */,
 				D294543AC11B43B99E994692243DBD69 /* Application_Ext.swift in Sources */,
 				845E32413AD091BB1034ACD12938BAD4 /* AppUtils.swift in Sources */,
 				D22677F3441EED4D79E41F680F8BCC31 /* Bundle_Ext.swift in Sources */,
@@ -433,7 +437,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 0.0.8;
+				MARKETING_VERSION = 0.0.9;
 				MODULEMAP_FILE = "Target Support Files/ZUCore/ZUCore.modulemap";
 				PRODUCT_MODULE_NAME = ZUCore;
 				PRODUCT_NAME = ZUCore;
@@ -731,7 +735,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 0.0.8;
+				MARKETING_VERSION = 0.0.9;
 				MODULEMAP_FILE = "Target Support Files/ZUCore/ZUCore.modulemap";
 				PRODUCT_MODULE_NAME = ZUCore;
 				PRODUCT_NAME = ZUCore;
