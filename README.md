@@ -17,8 +17,17 @@ ZUCore - is the base layer for other libs. It's just bunch of extension and some
 ```swift
 import ZUCore
 
-// use to detect thay app is runs with debug scheme
+// use to detect that app is runs with debug scheme
 isDebug: Bool
+```    
+
+:small_orange_diamond: MemoryAddressUtils.    
+(as Class)    
+```swift
+import ZUCore
+
+// use to get address as string representation
+let address = MemoryAddressUtils.getAddress(data)
 ```
 
 :small_orange_diamond: UIApplication.shared.    
