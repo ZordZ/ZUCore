@@ -9,7 +9,6 @@
 
 ZUCore - is the base layer for other libs. It's just bunch of extension and some usefull utils.
 
-
 ## Full features list:
 
 :small_orange_diamond: AppUtils.    
