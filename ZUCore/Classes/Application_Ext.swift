@@ -2,7 +2,7 @@
 //  Module: ZUCore
 //  Created by: MrTrent on 21.08.2022
 //  Copyright (c) 2022 Zordz Union
-//  
+//
 
 
 import Foundation
@@ -27,8 +27,8 @@ public extension UIApplication {
             return nav
         }
         if let tab = rootVC as? UITabBarController {
-            if let selected = tab.selectedViewController {
-                return selected.navigationController
+            if let selected = tab.selectedViewController as? UINavigationController {
+                return selected
             }
         }
         
@@ -51,17 +51,17 @@ public extension UIApplication {
 //    func pushViewController(_ viewController: UIViewController, animated: Bool) {
 //        topNavigationController?.pushViewController(viewController, animated: animated)
 //    }
-//    
+//
 //    /// Returns the popped controller.
 //    func popViewController(animated: Bool) -> UIViewController? {
 //        return topNavigationController?.popViewController(animated: animated)
 //    }
-//    
+//
 //    /// Pops view controllers until the one specified is on top. Returns the popped controllers.
 //    func popToViewController(_ viewController: UIViewController, animated: Bool) -> [UIViewController]? {
 //        return topNavigationController?.popToViewController(viewController, animated: animated)
 //    }
-//    
+//
 //    /// Pops until there's only a single view controller left on the stack. Returns the popped controllers.
 //    func popToRootViewController(animated: Bool) -> [UIViewController]? {
 //        return topNavigationController?.popToRootViewController(animated: animated)

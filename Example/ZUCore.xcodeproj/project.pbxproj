@@ -486,8 +486,10 @@
 			baseConfigurationReference = C60C45B05B117208F0E7208B /* Pods-ZUCore_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = ZUCore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,8 +503,10 @@
 			baseConfigurationReference = CA9C01D5036B443E3FDAA9BD /* Pods-ZUCore_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = ZUCore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

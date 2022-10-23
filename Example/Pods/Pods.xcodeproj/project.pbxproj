@@ -427,7 +427,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 20221024;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -437,7 +437,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 0.1.1;
 				MODULEMAP_FILE = "Target Support Files/ZUCore/ZUCore.modulemap";
 				PRODUCT_MODULE_NAME = ZUCore;
 				PRODUCT_NAME = ZUCore;
@@ -725,7 +725,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 20221024;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -735,7 +735,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 0.1.1;
 				MODULEMAP_FILE = "Target Support Files/ZUCore/ZUCore.modulemap";
 				PRODUCT_MODULE_NAME = ZUCore;
 				PRODUCT_NAME = ZUCore;

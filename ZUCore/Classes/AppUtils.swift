@@ -8,6 +8,7 @@
 import Foundation
 
 public struct AppUtils {
+    // Detect if scheme is debug
     public static var isDebug: Bool {
         #if DEBUG
             return true
