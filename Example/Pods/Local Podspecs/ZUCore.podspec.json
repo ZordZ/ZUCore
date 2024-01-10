@@ -1,6 +1,6 @@
 {
   "name": "ZUCore",
-  "version": "0.0.5",
+  "version": "0.1.2",
   "summary": "Core for other ZU libs and frameworks.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/ZordZ/ZUCore",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/ZordZ/ZUCore.git",
-    "tag": "0.0.5"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "13.0"
